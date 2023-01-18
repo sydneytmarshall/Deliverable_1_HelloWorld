@@ -16,6 +16,7 @@ internal class Program
         Console.WriteLine("The user's name is: " + userName);
 
         Console.WriteLine("Enter the user's age: ");
+        //int age = Convert.ToInt32(Console.ReadLine());
         int age = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("The user's age is: " + age);
     }
